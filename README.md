@@ -37,5 +37,6 @@ Métricas de Avaliação:
 Validação dos Modelos:
 - Divisão Holdout (Treinamento/Teste).
 - Validação Cruzada.
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
