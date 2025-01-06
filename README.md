@@ -27,7 +27,7 @@ Pré-processamento dos Dados:
 Modelos de Machine Learning:
 - Naive Bayes (NB)
 - Random Forest (RF)
-- Multi-Layer Perceptron (MLP)
+- xx
 - Decision Tree (DT)
 
 Métricas de Avaliação:
