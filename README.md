@@ -28,6 +28,8 @@ Modelos de Machine Learning:
 - Naive Bayes (NB)
 - Random Forest (RF)
 - Decision Tree (DT)
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
 
 Métricas de Avaliação:
  - Acurácia
