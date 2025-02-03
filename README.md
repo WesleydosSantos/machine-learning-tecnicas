@@ -32,8 +32,10 @@ Modelos de Machine Learning:
 - Support Vector Machine (SVM)
 
 Métricas de Avaliação:
- - Acurácia
- - Ajustes...
+ - Accuracy
+ - Precision
+ - Recall
+ - F1-Score 
 
 Validação dos Modelos:
 - Divisão Holdout (Treinamento/Teste).
