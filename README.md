@@ -3,7 +3,7 @@
 
 Trabalho de Conclusão de Curso II – Bacharelado em Sistemas de Informação (UFERSA)
 
-Este repositório apresenta o uso de técnicas de Machine Learning para analisar dados de saúde mental de 787 estudantes da Universidade de Lahore. O projeto utiliza algoritmos clássicos e avançados para identificar padrões e gerar insights a partir do dataset `depression_anxiety_data.xlsx`.
+Este repositório apresenta o uso de técnicas de Machine Learning para analisar dados de saúde mental de 787 estudantes da Universidade de Lahore. O projeto utiliza algoritmos clássicos e avançados para identificar padrões e gerar insights a partir do dataset `depression_anxiety_data.csv`.
 
 
 
