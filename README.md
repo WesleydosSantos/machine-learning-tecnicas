@@ -15,7 +15,7 @@ Este repositório apresenta o uso de técnicas de Machine Learning para analisar
 
 **Linguagem:** Python
 
-**Bibliotecas:** Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+**Bibliotecas:** Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Graphviz, Imbalanced-Learn, Collections 
 
 **Ambiente de Desenvolvimento:**  Jupyter Lab, Anaconda Navigator
 ## 📊 Metodologia utilizada
