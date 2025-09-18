@@ -70,18 +70,22 @@ A API foi desenvolvida em **Flask** e utiliza o modelo Decision Tree previamente
 git clone https://github.com/WesleydosSantos/machine-learning-tecnicas.git
 ```
 
-### 3. Abra o repositório clonado e instale as dependências
+### 3. Abra o repositório clonado
 ```bash
 cd machine-learning-tecnicas
+```
+
+### 4. Instale as dependências necessárias
+```bash
 pip install -r requirements.txt
 ```
 
-### 4. Execute a api
+### 5. Execute a api
 ```bash
 python app.py
 ```
 
-#### 4.1 Faça uma requisição
+#### 5.1 Faça uma requisição
 
 | Tipo de Requisição  | URL | Descrição |
 | ------------- | ------------- | ------------- |
@@ -98,5 +102,7 @@ Exemplo de JSON
 }
 ```
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
+[![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable)
 
