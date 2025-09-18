@@ -41,5 +41,62 @@ Validação dos Modelos:
 - Divisão Holdout (Treinamento/Teste).
 - Validação Cruzada.
 
+# API de predição de Saúde Mental 🧠
+
+A API foi desenvolvida em **Flask** e utiliza o modelo Decision Tree previamente treinado para prever diagnósticos relacionados à depressão com base nas melhores características do dataset.
+
+## 📂 Estrutura do Projeto
+
+```
+├─ Dataset/
+│  └─ depression_anxiety_data.csv
+├─ Modelos/
+│  ├─ decision_tree.ipynb
+│  ├─ knn.ipynb
+│  ├─ naive_bayes.ipynb
+│  ├─ random_forest.ipynb
+│  └─ svm.ipynb
+├─ api/
+│  ├─ Model/
+│  │  └─ dt_selected_features.joblib
+│  ├─ requirements.txt
+└─ └─ app.py
+```
+
+## 🚀 Como Executar a API
+
+### 1. Clonar o Repositório
+```bash
+git clone https://github.com/WesleydosSantos/machine-learning-tecnicas.git
+```
+
+### 3. Abra o repositório clonado e instale as dependências
+```bash
+cd machine-learning-tecnicas
+pip install -r requirements.txt
+```
+
+### 4. Execute a api
+```bash
+python app.py
+```
+
+#### 4.1 Faça uma requisição
+
+| Tipo de Requisição  | URL | Descrição |
+| ------------- | ------------- | ------------- |
+| POST | http://localhost:5000/predict | Retorna a predição juntamente com a confiança do modelo|
+
+Exemplo de JSON
+```bash
+{
+    "phq_score": 18,
+    "depressiveness": 1,
+    "depression_treatment": 1,
+    "anxiety_diagnosis": 1,
+    "anxiety_treatment": 1
+}
+```
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
