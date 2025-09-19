@@ -72,7 +72,7 @@ git clone https://github.com/WesleydosSantos/machine-learning-tecnicas.git
 
 ### 3. Abra o repositório clonado
 ```bash
-cd machine-learning-tecnicas
+cd machine-learning-tecnicas/app_sop_assist/api
 ```
 
 ### 4. Instale as dependências necessárias
